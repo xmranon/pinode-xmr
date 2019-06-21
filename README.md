@@ -1,4 +1,4 @@
-# PiNode-XMR
+# PiNode-XMR This Branch is the latest work in progress and may be unstable.
 SBC Plug and Play Monero Node.
 
 #### To Use - Unzip and write Image to Micro SD (recommended 128GB Micro SD) insert into Pi and Power on.
