@@ -4,7 +4,7 @@
 
 if [ $BOOT_STATUS -lt 1 ]
 then
-	sudo raspi-config --expand-rootfs
+	sudo /usr/lib/armbian/armbian-resize-filesystem start
 	sleep "120"
 	echo "#!/bin/sh
 BOOT_STATUS=2" > /home/pinodexmr/bootstatus.sh

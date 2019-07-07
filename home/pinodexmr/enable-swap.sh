@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo dphys-swapfile swapon
+sudo swapon /var/swap
